@@ -1,12 +1,11 @@
 {
     "information": {
-        "name": "SnakeWii",
+        "name": "WiiFractals",
         "author": "Abdelali221",
-        "category": "games",
+        "category": "demos",
         "supported_platforms": [
             "wii",
-            "vwii",
-            "wii_mini"
+            "vwii"
         ],
         "peripherals": [
             "Wii Remote"
@@ -16,7 +15,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "abdelali221/SnakeWii",
-        "file": "SnakeWii.zip"
+        "repository": "Abdelali221/WiiFractals",
+        "file": "WiiFractals.zip"
     }
 }

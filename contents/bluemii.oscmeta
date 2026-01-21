@@ -1,29 +1,31 @@
 {
     "information": {
-        "name": "RiiConnect24 Clear Tool",
-        "author": "RiiConnect24",
+        "name": "BlueMii",
+        "author": "Zarithya",
         "category": "utilities",
         "peripherals": [
             "Wii Remote",
-            "SDHC"
+            "GameCube Controller"
         ],
-        "flags": [
-            "writes_to_nand"
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
         ],
         "version": "auto"
     },
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "RiiConnect24/RC24-Clear-Tool",
-        "file": "RC24-Clear-Tool.*.zip"
+        "repository": "Zarithya/BlueMii",
+        "file": "BlueMii.*.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
             "arguments": [
-                "RC24-Clear-Tool/",
-                "apps/RC24-Clear-Tool/"
+                "apps/BlueMii/",
+                "apps/bluemii/"
             ]
         }
     ]

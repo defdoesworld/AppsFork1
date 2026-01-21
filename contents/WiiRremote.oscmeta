@@ -1,8 +1,8 @@
 {
     "information": {
-        "name": "SnakeWii",
+        "name": "WiiRremote",
         "author": "Abdelali221",
-        "category": "games",
+        "category": "utilities",
         "supported_platforms": [
             "wii",
             "vwii",
@@ -16,7 +16,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "abdelali221/SnakeWii",
-        "file": "SnakeWii.zip"
+        "repository": "abdelali221/WiiRremote",
+        "file": "WiiRremote.zip"
     }
 }
